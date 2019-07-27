@@ -1,0 +1,268 @@
+body{
+	overflow-x: hidden;
+	position: relative;
+	font-family: 'Exo 2', sans-serif !important;
+}
+
+header .parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.layer {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	transform: scale(1.15);
+	min-height: 100vh;
+	max-width: 100%;
+	height: auto;
+}
+
+nav {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 1.4em;
+	display: flex;
+	justify-content: center !important;
+}
+
+nav a {
+	color: #eee !important;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+nav a:hover {
+	color: #fff !important;
+	-webkit-transform: translateY(-1px);
+	-ms-transform: translateY(-1px);
+	-o-transform: translateY(-1px);
+	transform: translateY(-1px);
+}
+
+.active a {
+	color: #b1b1b1 !important;
+}
+
+
+.navbar-toggler:focus {
+	outline:none !important;
+}
+
+.navbar button {
+	background: #eee !important;
+}
+
+.meImg {
+	border: 15px solid #fff;
+	border-radius: 170px;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 25px 5px #333;
+	box-shadow: 0px 0px 25px 5px #333;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+	transition: .8s;
+}
+
+.linkme a {
+	color: #000;
+}
+
+
+.iconsNear a {
+	display: inline-block;
+	background: #fff;
+	height: 140px;
+	width: 140px;
+	border-radius: 70px;
+	padding: 7px;
+	font-size: 5.5em;
+}
+
+.iconsFar a {
+	font-size: 3.5em;
+	display: inline-block;
+	background: #fff;
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+}
+
+.leftIcon a {
+	-webkit-box-shadow:  -3px 0px 10px 2px #333;
+	box-shadow:  -3px 0px 10px 2px #333;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+	transition: .8s;
+}
+
+.leftIcon2 a {
+	-webkit-box-shadow:  -3px 0px 10px 2px #333;
+	box-shadow:  -3px 0px 10px 2px #333;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+	transition: .8s;
+}
+
+
+
+.rightIcon a {
+	-webkit-box-shadow:  3px 0px 10px 2px #333;
+	box-shadow:  3px 0px 10px 2px #333;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+	transition: .8s;
+}
+
+.leftIcon2 {
+	display: none;
+}
+
+.linkme a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.fewwords h1, .fewwords h2 {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 700;
+	text-shadow: 0 0 15px #333;
+}
+
+
+
+#about {
+	background: #eee;
+}
+
+h3 {
+	margin-bottom: 0px;
+}
+
+p {
+	color: #808080;
+}
+
+#download .container-fluid {
+	padding-bottom: 20px;
+}
+
+#download h3 {
+	color: #FFF;
+}
+#download p {
+	color: #bbb;
+}
+
+#download span {
+	font-size: 5em;
+}
+
+#download small {
+	font-size: 1.5em
+}
+
+#download a:hover {
+	text-decoration: none !important;
+}
+
+.pbar>div{
+	float: left;
+	margin-left: 15px;
+}
+
+#work {
+	background: #EEE;
+}
+
+.gallery img {
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 5px #666;
+	-webkit-transition: 0.45s;
+	 -o-transition: 0.45s;
+	 transition: 0.45s; 
+}
+.gallery img:hover {
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	transform: scale(0.95); 
+	-webkit-filter: brightness(0.6);
+	-o-filter: brightness(0.6);
+	filter: brightness(0.6); 
+}
+
+#link h3 {
+	color: #FFF;
+}
+#link {
+	color: #bbb;
+}
+
+#link input, #link textarea {
+	box-shadow: inset 1px 1px 3px #333;
+}
+
+#link input:focus, #link textarea:focus {
+	box-shadow: none;
+	border: 1px solid #fff;
+}
+
+
+
+.container {
+	padding: 20px 0 0 0;
+}
+
+.number {
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+	.meImg {
+		height: 270px
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.leftIcon {
+		display: none;
+	}
+	.leftIcon2 {
+		display: inline-block;
+	}
+	.iconsNear a, .iconsFar a {
+		height: 70px;
+		width: 70px;
+		border-radius: 35px;
+		padding: 3.5px;
+		font-size: 2.7em;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.fewwords h1, .fewwords h2{
+		font-size: 2.2em;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.fewwords h1, .fewwords h2{
+		font-size: 1.8em;
+	}
+	.meImg {
+		height: 200px;
+	}
+	.iconsNear a, .iconsFar a {
+		height: 35px;
+		width: 35px;
+		border-radius: 17.5px;
+		padding: 1.75px;
+		font-size: 1.35em;
+	}
+}
